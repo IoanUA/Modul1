@@ -13,6 +13,16 @@ html {
   --grey-three: #555555;
   --registration: rgba(157, 164, 189, 0.4);
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 a {
   text-decoration: none;
 }
@@ -22,8 +32,11 @@ li {
 button {
   cursor: pointer;
 }
-.nav {
-  background: var(--grey-two);
+.header {
+  background-color: var(--grey-three);
+}
+.hero {
+  background-color: var(--grey-three);
 }
 .nav a {
   font-family: "Open Sans";
@@ -47,7 +60,6 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--white-color);
-  background: var(--grey-two);
 }
 .tel:hover,
 .tel:focus {
@@ -71,7 +83,6 @@ button {
   border: 1px solid #ff6c00;
   box-sizing: border-box;
   border-radius: 25px;
-  background: var(--grey-two);
 }
 .recording:hover,
 .recording:focus {
@@ -85,7 +96,6 @@ button {
   line-height: 15px;
   letter-spacing: 0.2em;
   color: var(--white-color);
-  background: var(--grey-two);
 }
 .list-other:hover,
 .list-other:focus {
@@ -169,7 +179,6 @@ h1 {
   color: var(--black);
 }
 .best button {
-  background-color: var(--white-color);
   width: 160px;
   height: 40px;
   left: 689px;
@@ -177,6 +186,9 @@ h1 {
   border: 1px solid #ff6c00;
   box-sizing: border-box;
   border-radius: 25px;
+}
+.price {
+  background-color: var(--grey-three);
 }
 .price .slog {
   font-family: Open Sans;
@@ -196,7 +208,6 @@ h1 {
   line-height: 49px;
   letter-spacing: 0.05em;
   color: var(--white-color);
-  background: var(--grey);
 }
 .price p {
   font-family: Open Sans;
@@ -225,4 +236,92 @@ h1 {
   border: 1px solid #ff6c00;
   box-sizing: border-box;
   border-radius: 25px;
+}
+
+.statistics span {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--black);
+}
+.statistics p {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--black);
+}
+.statistics h2 {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--black);
+}
+.statistics .end {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--grey-three);
+}
+
+.masters .slog {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.masters h2 {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--black);
+}
+.masters h3 {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+.masters p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: var(--tomato);
+}
+.galerey p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.order {
+  background: var(--grey-three);
+}
+.order h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
 }
