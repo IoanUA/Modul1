@@ -5,18 +5,12 @@ html {
   font-family: "Raleway", sans-serif;
 }
 :root {
-  --img: <svg width= "1073" height= "680" viewBox= "0 0 1073 680" fill= "none"
-    xmlns= "http://www.w3.org/2000/svg" > <rect width= "1072.66" height= "680"
-    transform= "matrix(-1 0 0 1 1072.66 0)" fill= "#191C26" fill-opacity= "0.2" /
-    > </svg>;
-}
-:root {
   --black: #303030;
   --white-color: #ffffff;
   --tomato: #ff6c00;
   --grey: rgba(157, 164, 189, 0.6);
   --grey-two: #9da4bd;
-  --greu-three: #555555;
+  --grey-three: #555555;
   --registration: rgba(157, 164, 189, 0.4);
 }
 a {
@@ -25,9 +19,14 @@ a {
 li {
   list-style: none;
 }
-
-.nav .nav-boot {
-  font-family: Open Sans;
+button {
+  cursor: pointer;
+}
+.nav {
+  background: var(--grey-two);
+}
+.nav a {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -35,8 +34,195 @@ li {
   letter-spacing: 0.1em;
   color: var(--white-color);
 }
-.nav .nav-boot:hover,
-.nav .nav-boot:focus {
+.nav a:hover,
+.nav a:focus {
   color: var(--tomato);
 }
-
+.tel {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background: var(--grey-two);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--tomato);
+}
+.recording {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.recording {
+  width: 160px;
+  height: 40px;
+  left: 689px;
+  top: 1220px;
+  border: 1px solid #ff6c00;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background: var(--grey-two);
+}
+.recording:hover,
+.recording:focus {
+  color: var(--tomato);
+}
+.list-other {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  color: var(--white-color);
+  background: var(--grey-two);
+}
+.list-other:hover,
+.list-other:focus {
+  color: var(--tomato);
+}
+.hero p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+h1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.hero .expert {
+  text-transform: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--grey-two);
+}
+.best p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.best h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--black);
+}
+.best .best-go {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--grey-three);
+}
+.best .best-info {
+  text-transform: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: var(--grey-three);
+}
+.best button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.best button {
+  background-color: var(--white-color);
+  width: 160px;
+  height: 40px;
+  left: 689px;
+  top: 1220px;
+  border: 1px solid #ff6c00;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+.price .slog {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+.price h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+  background: var(--grey);
+}
+.price p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--grey-two);
+}
+.price button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.price button {
+  width: 160px;
+  height: 40px;
+  left: 565px;
+  top: 1933px;
+  border: 1px solid #ff6c00;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
