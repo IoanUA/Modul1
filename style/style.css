@@ -17,11 +17,6 @@ h1 h2 h3 h4 h5 h6 ul a p {
   margin: 0px;
   padding: 0px;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -41,11 +36,20 @@ li {
 button {
   cursor: pointer;
 }
+.container {
+  outline: 5px solid red;
+  width: 1200px;
+  margin: auto;
+}
 .header {
+  display: flex;
   background-color: var(--grey-three);
 }
 .hero {
   background-color: var(--grey-three);
+}
+.nav {
+  display: flex;
 }
 .nav a {
   font-family: "Open Sans";
