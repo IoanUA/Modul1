@@ -13,6 +13,15 @@ html {
   --grey-three: #555555;
   --registration: rgba(157, 164, 189, 0.4);
 }
+h1 h2 h3 h4 h5 h6 ul a p {
+  margin: 0px;
+  padding: 0px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
