@@ -40,16 +40,31 @@ button {
   outline: 5px solid red;
   width: 1200px;
   margin: auto;
+
+}
+.header-navigation
+{
+  display: flex;
+
 }
 .header {
+  padding-top: 40px;
+
   display: flex;
   background-color: var(--grey-three);
 }
 .hero {
   background-color: var(--grey-three);
+padding-top: 208px;
+padding-bottom: 206px;
 }
+
 .nav {
   display: flex;
+  
+}
+.nav li+li{
+  margin-left: 48px;
 }
 .nav a {
   font-family: "Open Sans";
@@ -73,10 +88,17 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-right: 40px;
 }
 .tel:hover,
 .tel:focus {
   color: var(--tomato);
+}
+.contact{
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+align-items: center;
 }
 .recording {
   font-family: "Open Sans";
@@ -87,6 +109,7 @@ button {
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--white-color);
+  background-color: rgba(0, 0, 0, 0) ;
 }
 .recording {
   width: 160px;
@@ -114,6 +137,7 @@ button {
 .list-other:focus {
   color: var(--tomato);
 }
+
 .hero p {
   font-family: Open Sans;
   font-style: normal;
